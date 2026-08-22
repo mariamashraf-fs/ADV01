@@ -266,6 +266,19 @@ namespace Assignment_9;
 
         #endregion
 
+        #region Question_14
+
+        /* Q14: Write a SafeList<T> that returns default when the index is invalid. */
+
+        //SafeList<string> safeList = new SafeList<string>();
+        //safeList.Add("Mariam");
+        //safeList.Add("Ali");
+
+        //Console.WriteLine($"Valid index (0) => {safeList.GetAt(0)}");
+        //Console.WriteLine($"Invalid index (10) => {safeList.GetAt(10) ?? "null (default)"}");
+
+        #endregion
+
 
 
         #endregion
