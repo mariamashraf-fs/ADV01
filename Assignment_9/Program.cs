@@ -4,7 +4,16 @@ namespace Assignment_9;
 
   internal class Program
   {
-     static void Main(string[] args)
+    //Q3
+     public static void Swap<T>(ref T a, ref T b)
+     {
+        T temp = a;
+        a = b;
+        b = temp;
+     }
+
+
+    static void Main(string[] args)
         {
         #region Assignment_9
 
@@ -49,6 +58,26 @@ namespace Assignment_9;
 
         //Console.WriteLine($"Key => {myPair.Key}");
         //Console.WriteLine($"Value => {myPair.Value}");
+
+        #endregion
+
+        #region Question_4
+
+        /* Q4: What is a generic method? Write Swap<T> method. */
+
+        // Answer ->
+        // A generic method is a method that has its own type parameter, separate from the class.
+        // This lets one method work with different data types without rewriting it for each type, and the type T is
+        // only decided when the method is called.
+
+        //int x = 10;
+        //int y = 20;
+
+        //Console.WriteLine($"Before Swap -> X: {x}, Y: {y}");
+
+        //Swap(ref x, ref y);
+
+        //Console.WriteLine($"After Swap -> X: {x}, Y: {y}");
 
         #endregion
 
