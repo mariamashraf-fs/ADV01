@@ -329,6 +329,24 @@ namespace Assignment_9;
 
         #endregion
 
+        #region Question_18
+
+        /* Q18: How do static members work in generic types? */
+
+        // Answer ->
+        // Each closed generic type gets its own static members. For example, if you have a generic class MyClass<T>,
+        // then MyClass<int> and MyClass<string> will each have their own independent copy of static members.
+        // They are NOT shared across different T's.
+
+        //new Counter<int>();
+        //new Counter<int>();
+        //new Counter<string>();
+
+        //Console.WriteLine($"Counter<int>.Count => {Counter<int>.Count}");
+        //Console.WriteLine($"Counter<string>.Count => {Counter<string>.Count}");
+
+        #endregion
+
 
         #endregion
     }
