@@ -139,6 +139,22 @@ namespace Assignment_9;
 
         #endregion
 
+        #region Question_7
+
+        /* Q7: What is the 'struct' constraint? Write an example. */
+
+        // Answer ->
+        // The "where T : struct" constraint forces T to be a value type only and it cannot be a reference type like string or a class.
+
+        //StructConstraintExample<int> example1 = new StructConstraintExample<int>();
+        //example1.Value = 10;
+        //Console.WriteLine($"Value => {example1.Value}");
+
+        //StructConstraintExample<string> example2 = new StructConstraintExample<string>();
+        // This compile error, because string is a reference type, not a struct.
+
+        #endregion
+
         #endregion
     }
 }
