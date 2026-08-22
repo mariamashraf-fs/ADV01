@@ -251,6 +251,21 @@ namespace Assignment_9;
 
         #endregion
 
+        #region Question_13
+        /* Q13: What does the 'default' keyword do in generics? */
+
+        // Answer ->
+        // "default" returns the default value of type T:
+        // - 0 / false / '\0' for value types (int, bool, char...)
+        // - null for reference types (string, custom classes...)
+        // It's used when we don't know if T is a value type or reference type at compile time.
+
+        //Console.WriteLine($"Default int => {default(int)}");
+        //Console.WriteLine($"Default bool => {default(bool)}");
+        //Console.WriteLine($"Default string => '{default(string)}'");
+
+        #endregion
+
 
 
         #endregion
