@@ -366,6 +366,24 @@ namespace Assignment_9;
 
         #endregion
 
+        #region Question_20
+
+        /* Q20: Complete Exercise - Create a generic Cache<TKey, TValue> with Add, Get, Remove, Contains,
+          and expiration support. */
+
+        //Cache<string, string> cache = new Cache<string, string>();
+        //cache.Add("greeting", "Hello!", TimeSpan.FromSeconds(2));
+
+        //Console.WriteLine($"Contains 'greeting' => {cache.Contains("greeting")}");
+        //Console.WriteLine($"Get 'greeting' => {cache.Get("greeting")}");
+
+        //System.Threading.Thread.Sleep(2500);
+
+        //Console.WriteLine($"Contains 'greeting' after expiry => {cache.Contains("greeting")}");
+        //Console.WriteLine($"Get 'greeting' after expiry => {cache.Get("greeting") ?? "null (expired)"}");
+
+        #endregion
+
 
         #endregion
     }
