@@ -37,6 +37,21 @@ namespace Assignment_9;
 
         #endregion
 
+        #region Question_3
+
+        /* Q3: What are multiple type parameters? Write Pair<TKey, TValue>. */
+
+        // Answer ->
+        // Multiple type parameters allow a generic class or method to work with more than one type parameter
+        // at the same time and they are useful when a class or method needs to work with different types.
+
+        //Pair<int, string> myPair = new Pair<int, string>(1, "Mariam");
+
+        //Console.WriteLine($"Key => {myPair.Key}");
+        //Console.WriteLine($"Value => {myPair.Value}");
+
+        #endregion
+
         #endregion
     }
 }
