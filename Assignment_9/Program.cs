@@ -299,6 +299,21 @@ namespace Assignment_9;
 
         #endregion
 
+        #region Question_16
+
+        /* Q16: What is contravariance? Explain the 'in' keyword. */
+
+        // Answer ->
+        // Contravariance lets you use a less specific (more general) type than originally specified.
+        // Marked with "in" on the type parameter, meaning T can only appear in input positions (method parameters),
+        // never as a return type.
+
+        //IPrinter<object> generalPrinter = new DocumentPrinter();
+        //IPrinter<string> stringPrinter = generalPrinter;
+
+        //stringPrinter.Print("Hello Mariam");
+
+        #endregion
 
 
         #endregion
