@@ -231,6 +231,28 @@ namespace Assignment_9;
 
         #endregion
 
+        #region Question_12
+
+        /* Q12: How do you apply multiple constraints? Write an example. */
+
+        // Answer ->
+        // You list multiple constraints after a single "where", separated by commas.
+        // Order rule: class/struct constraint (if any) first, then interfaces, and new() must always come last.
+
+        //Animal cat = new Animal { Name = "Cat", Age = 3 };
+        //Animal dog = new Animal { Name = "Dog", Age = 5 };
+
+        //MultipleConstraintsExample<Animal> example = new MultipleConstraintsExample<Animal>();
+
+        //Console.WriteLine($"Is {dog.Name} bigger than {cat.Name}? => {example.IsBigger(dog, cat)}");
+
+        //Animal newAnimal = example.CreateDefaultAnimal();
+        //Console.WriteLine($"Created default animal => Name: '{newAnimal.Name}', Age: {newAnimal.Age}");
+
+        #endregion
+
+
+
         #endregion
     }
 }
