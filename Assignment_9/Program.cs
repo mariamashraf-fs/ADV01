@@ -4,13 +4,31 @@ namespace Assignment_9;
 
   internal class Program
   {
-    //Q3
+    //Q4
      public static void Swap<T>(ref T a, ref T b)
      {
         T temp = a;
         a = b;
         b = temp;
      }
+
+    //Q5
+    public static T? FindMax<T>(List<T> items) where T : IComparable<T>
+    {
+        if (items.Count == 0)
+        {
+            Console.WriteLine("List is empty.");
+            return default;
+        }
+
+        T max = items[0];
+        foreach (var item in items)
+        {
+            if (item.CompareTo(max) > 0)
+                max = item;
+        }
+        return max;
+    }
 
 
     static void Main(string[] args)
@@ -78,6 +96,35 @@ namespace Assignment_9;
         //Swap(ref x, ref y);
 
         //Console.WriteLine($"After Swap -> X: {x}, Y: {y}");
+
+        #endregion
+
+        #region Question_5
+
+        /* Q5: Write a generic method FindMax<T> that finds maximum value */
+
+        //Console.Write("How many numbers do you want to enter? ");
+        //int count;
+        //while (!int.TryParse(Console.ReadLine(), out count) || count <= 0)
+        //{
+        //    Console.Write("Please enter a valid positive number: ");
+        //}
+
+        //List<int> numbers = new List<int>();
+
+        //for (int i = 0; i < count; i++)
+        //{
+        //    Console.Write($"Enter number {i + 1}: ");
+        //    int num;
+        //    while (!int.TryParse(Console.ReadLine(), out num))
+        //    {
+        //        Console.Write("Please enter a valid number: ");
+        //    }
+        //    numbers.Add(num);
+        //}
+
+        //Console.WriteLine($"Max => {FindMax(numbers)}");
+
 
         #endregion
 
