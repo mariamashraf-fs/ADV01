@@ -128,6 +128,17 @@ namespace Assignment_9;
 
         #endregion
 
+        #region Question_6
+
+        /* Q6: What is a generic interface? Write IRepository<T>. */
+
+        // Answer ->
+        // A generic interface is an interface that uses a type parameter <T> instead of a specific type.
+        // Any class that implements it can choose its own type.
+
+
+        #endregion
+
         #endregion
     }
 }
