@@ -189,7 +189,32 @@ namespace Assignment_9;
 
         #endregion
 
+        #region Question_10
 
+        /* Q10: What is the interface constraint? Write an example. */
+
+        // Answer ->
+        // An interface constraint (where T : ISomeInterface) forces T to implement that interface, so the generic code
+        // can safely call the interface's methods on T.
+
+        //Console.Write("Enter first number: ");
+        //int a;
+        //while (!int.TryParse(Console.ReadLine(), out a))
+        //{
+        //    Console.Write("Invalid number! Enter first number: ");
+        //}
+
+        //Console.Write("Enter second number: ");
+        //int b;
+        //while (!int.TryParse(Console.ReadLine(), out b))
+        //{
+        //    Console.Write("Invalid number! Enter second number: ");
+        //}
+
+        //InterfaceConstraintExample<int> example = new InterfaceConstraintExample<int>();
+        //Console.WriteLine($"Is {a} greater than {b}? => {example.IsGreater(a, b)}");
+
+        #endregion
 
         #endregion
     }
