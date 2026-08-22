@@ -1,4 +1,6 @@
-﻿namespace Assignment_9;
+﻿using Assignment_9.Classes;
+
+namespace Assignment_9;
 
   internal class Program
   {
@@ -19,9 +21,22 @@
         // 3-> Better Performance: Avoids boxing and unboxing for value types.
         // 4-> Cleaner Code: Reduces code duplication.
 
-         
+
+        #endregion
+
+        #region Question_2
+
+        /* Q2: Write a generic class Container<T> with Add and Get methods. */
+
+        //Container<int> myContainer = new Container<int>();
+        //myContainer.Add(100);
+        //myContainer.Add(200);
+
+        //Console.WriteLine($"The value => {myContainer.Get(0)}");
+        //Console.WriteLine($"The value => {myContainer.Get(1)}");
+
         #endregion
 
         #endregion
-        }
     }
+}
