@@ -171,6 +171,26 @@ namespace Assignment_9;
 
         #endregion
 
+        #region Question_9
+
+        /* Q9: What is the 'new()' constraint? Write an example. */
+
+        // Answer ->
+        // The "where T : new()" constraint requires T to have a parameterless constructor, so we can create a new instance
+        // of T inside the generic class using "new T()".
+
+        //Factory<Container<int>> factory = new Factory<Container<int>>();
+        //Container<int> newContainer = factory.Create();
+
+        //newContainer.Add(100);
+        //newContainer.Add(300);
+        //Console.WriteLine($"Created container, value inside => {newContainer.Get(0)}");
+        //Console.WriteLine($"Created container, value inside => {newContainer.Get(1)}");
+
+        #endregion
+
+
+
         #endregion
     }
 }
