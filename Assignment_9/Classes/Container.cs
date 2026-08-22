@@ -8,7 +8,7 @@ namespace Assignment_9.Classes
     {
         private List<T> items = new List<T>();
 
-        public void Add(T item)
+        public virtual void Add(T item)
         {
             items.Add(item);
         }

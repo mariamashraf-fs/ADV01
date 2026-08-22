@@ -347,6 +347,25 @@ namespace Assignment_9;
 
         #endregion
 
+        #region Question_19
+
+        /* Q19: How can you inherit from a generic class? */
+
+        // Answer ->
+        // There are two ways to inherit from a generic class:
+        // 1) Close the generic type with a specific type (non-generic subclass).
+        // 2) Keep the subclass generic too, passing its own type parameter through.
+
+        //StringContainer sc = new StringContainer();
+        //sc.Add("Hello");
+        //Console.WriteLine($"StringContainer => {sc.Get(0)}");
+
+        //LoggingContainer<int> lc = new LoggingContainer<int>();
+        //lc.Add(42);
+        //Console.WriteLine($"LoggingContainer => {lc.Get(0)}");
+
+        #endregion
+
 
         #endregion
     }
