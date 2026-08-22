@@ -315,6 +315,20 @@ namespace Assignment_9;
 
         #endregion
 
+        #region Question_17
+
+        /* Q17: What is the difference between covariance and contravariance? */
+
+        // Answer ->
+        // Covariance (out): allows using a more derived type (Derived -> Base direction),
+        // used for types that only PRODUCE/return T.
+
+        // Contravariance (in): allows using a less derived type (Base -> Derived direction),
+        // used for types that only CONSUME/accept T as a parameter.
+        // In short: "out" = safe to widen the return type, "in" = safe to widen the parameter type.
+
+        #endregion
+
 
         #endregion
     }
