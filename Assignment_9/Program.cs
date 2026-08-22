@@ -1,4 +1,5 @@
 ﻿using Assignment_9.Classes;
+using Assignment_9.Interfaces;
 
 namespace Assignment_9;
 
@@ -276,6 +277,25 @@ namespace Assignment_9;
 
         //Console.WriteLine($"Valid index (0) => {safeList.GetAt(0)}");
         //Console.WriteLine($"Invalid index (10) => {safeList.GetAt(10) ?? "null (default)"}");
+
+        #endregion
+
+        #region Question_15
+
+        /* Q15: What is covariance? Explain the 'out' keyword. */
+
+        // Answer ->
+        // Covariance lets you use a more derived type than originally specified,
+        // example: assign IProducer<Dog> to a variable of type IProducer<Animal>.
+        // Marked with "out" on the type parameter, meaning T can only appear in output positions (return values) —
+        // never as a method parameter.
+
+        //IProducer<Dog> dogProducer = new DogProducer();
+        //IProducer<Animal> animalProducer = dogProducer;
+
+        //Animal result = animalProducer.Produce();
+        //Console.WriteLine($"Produced => {result.Name}");
+
 
         #endregion
 
