@@ -155,6 +155,22 @@ namespace Assignment_9;
 
         #endregion
 
+        #region Question_8
+
+        /* Q8: What is the 'class' constraint? Write an example. */
+
+        // Answer ->
+        // The "where T : class" constraint forces T to be a reference type only and it cannot be a value type like int.
+
+        //ClassConstraintExample<string> example1 = new ClassConstraintExample<string>();
+        //example1.Value = "Mariam";
+        //Console.WriteLine($"Value => {example1.Value}");
+
+        //ClassConstraintExample<int> example2 = new ClassConstraintExample<int>();
+        // This compile error, because int is a value type, not a class.
+
+        #endregion
+
         #endregion
     }
 }
