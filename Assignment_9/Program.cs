@@ -216,6 +216,21 @@ namespace Assignment_9;
 
         #endregion
 
+        #region Question_11
+
+        /* Q11: What is the base class constraint? Write an example. */
+
+        // Answer ->
+        // A base class constraint (where T : SomeBaseClass) forces T to be that class or a class derived from it,
+        // so the generic code can use members inherited from that base class.
+
+        //Animal animal1 = new Animal { Name = "Cat" };
+
+        //BaseClassConstraintExample<Animal> example = new BaseClassConstraintExample<Animal>();
+        //example.Speak(animal1);
+
+        #endregion
+
         #endregion
     }
 }
